@@ -1,0 +1,22 @@
+{
+  "name": "wishlist-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "client":" npm run start --prefi client",
+    "server": "nodemon app.js",
+    "dev" : "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "Faiz Khan",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "concurrently": "^5.0.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4",
+    "parser": "^0.1.4"
+  }
+}
